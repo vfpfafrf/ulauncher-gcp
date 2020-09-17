@@ -27,7 +27,7 @@ class KeywordQueryEventListener(EventListener):
             [
                 "Spanner",
                 OpenUrlAction("https://console.cloud.google.com/spanner"),
-                "images/spanner.jpg"
+                "images/spanner.png"
             ],
             [
                 "Compute Engine",
@@ -128,6 +128,11 @@ class KeywordQueryEventListener(EventListener):
                 "Pricing Calculator",
                 OpenUrlAction("https://cloud.google.com/products/calculator"),
                 "images/pricing_calculator_icon.png"
+            ],
+            [
+                "GKE",
+                OpenUrlAction("https://console.cloud.google.com/kubernetes"),
+                "images/kube_icon.png"
             ]
         ]
 
