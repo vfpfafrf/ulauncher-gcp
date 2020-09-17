@@ -25,6 +25,11 @@ class KeywordQueryEventListener(EventListener):
                 "images/gcp_logo.png"
             ],
             [
+                "Spanner",
+                OpenUrlAction("https://console.cloud.google.com/spanner"),
+                "images/spanner.jpg"
+            ],
+            [
                 "Compute Engine",
                 OpenUrlAction("https://console.cloud.google.com/compute"),
                 "images/compute_icon.png"
